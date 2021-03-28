@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fox Lab</title>
+</head>
+<body>
+    <div id="app">
+        <v-app app>
+            <!--design in components-->
+            <v-main>
+                <section id="story">
+                    <v-container>
+                        <v-row justify="center">
+                            <v-col>
+                                <span class="title">
+                                    <h2>SOBRE NOSOTROS</h2>
+                                </span>  
+                            </v-col>
+                        </v-row>
+                        <v-row
+                        align="center"
+                        justify-lg="center"
+                        >
+                            <v-col
+                            sm="6"
+                            md="4">
+                                <v-card flat>
+                                    <v-card-title>
+                                            <h3>Que Hacemos</h3>
+                                        </v-card-title>
+                                        <v-card-text>
+                                            <h3></h3>
+                                        </v-card-text >
+                                        <v-row justify="center" align="center">
+                                            <v-col cols="6">
+                                                Disenamos tu pagina web o incluso tu portafolio!
+                                            </v-col>
+                                            <v-col cols="6">
+                                                <v-img id="pic_1" src="./imagenes/resume.png"></v-img>
+                                                <v-img  height="100" widht="50" src="./imagenes/Portfolio.png"></v-img>
+                                            </v-col>
+                                        </v-row>
+                                        <v-card-text cols="6">
+                                            <h3>Ideamos la pagina web y confirmamos a tu gusto</h3>
+                                        </v-card-text>
+                                        <v-img src="./imagenes/Article.png"></v-img>
+                                        <v-img src="./imagenes/confirmed.png"></v-img>
+                                        <v-card-text >
+                                            <h3></h3>
+                                        </v-card-text>
+                                        <v-img src="Web-devices.png"
+                                        </v-card>
+                                    </v-col>
+                                <v-col
+                                md="4"
+                                sm="6">
+                                    <v-img id="pic_fox" :src="pic"></v-img>
+                                </v-col>
+                                <v-col
+                                sm="12"
+                                md="4">
+                                <v-card flat>
+                                    <v-card-title>
+                                        <h3>Quienes Somos</h3>
+                                    </v-card-title>
+                                    <v-card-text>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas facilis fugit repellendus nobis inventore corrupti sint totam, explicabo ullam quisquam dolorum aut maiores nisi assumenda debitis cupiditate nemo ipsam distinctio maxime saepe quos provident odit. Voluptates quas, totam minima illo ducimus, ullam accusamus aperiam sint error esse repellat dignissimos magnam.</p>
+                                    </v-card-text>
+                                </v-card>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+                </section>
+            </v-main>
+        </v-app>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+</body>
+</html>
